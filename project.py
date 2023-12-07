@@ -3,7 +3,7 @@ html = """<!DOCTYPE html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/project.css">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Project </title>
     </head>
     <body>
@@ -12,11 +12,11 @@ html = """<!DOCTYPE html>
             <h1>Project Re:build</h1>
         </header>
 
-        <nav>
+       <nav>
             <a href="./index.html">ホーム</a>
-            <a href="#">カテゴリ1</a>
-            <a href="#">カテゴリ2</a>
-            <a href="#">カテゴリ3</a>
+            <a href="./project.html">Projects</a>
+            <a href="./experiment.html">Experimemts</a>
+            <a href="https://www.kanagawa-u.ac.jp/cooperation/project/fablab/">Fablab みなとみらい（外部サイト）</a>
         </nav>
 
         
@@ -91,8 +91,8 @@ CSS= """ body {
 """
 
 #my-page.(拡張子)を作るよって指示。これでHTMLとCSSが自動で生成される。
-with open("project.html", "w", encoding="utf-8") as f:
+with open("a.html", "w", encoding="utf-8") as f:
     f.write(html)
 
-with open("project.css", "w", encoding="utf=8") as f:
+with open("style.css", "w", encoding="utf=8") as f:
     f.write(CSS)
