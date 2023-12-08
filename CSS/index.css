@@ -49,7 +49,7 @@
               padding: 4px;
             }
             .ticker-head {
-              width: calc(4em + 8px);
+              width: calc(4em + 40px);
               font-style: italic;
               color: dodgerblue;
               line-height: 30px;
